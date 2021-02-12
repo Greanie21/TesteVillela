@@ -1,0 +1,13 @@
+D:\RepositorioGit\TesteVillela\bin\Debug\netcoreapp3.1\TesteVillela.exe
+D:\RepositorioGit\TesteVillela\bin\Debug\netcoreapp3.1\TesteVillela.deps.json
+D:\RepositorioGit\TesteVillela\bin\Debug\netcoreapp3.1\TesteVillela.runtimeconfig.json
+D:\RepositorioGit\TesteVillela\bin\Debug\netcoreapp3.1\TesteVillela.runtimeconfig.dev.json
+D:\RepositorioGit\TesteVillela\bin\Debug\netcoreapp3.1\TesteVillela.dll
+D:\RepositorioGit\TesteVillela\bin\Debug\netcoreapp3.1\TesteVillela.pdb
+D:\RepositorioGit\TesteVillela\obj\Debug\netcoreapp3.1\TesteVillela.csprojAssemblyReference.cache
+D:\RepositorioGit\TesteVillela\obj\Debug\netcoreapp3.1\TesteVillela.csproj.CoreCompileInputs.cache
+D:\RepositorioGit\TesteVillela\obj\Debug\netcoreapp3.1\TesteVillela.AssemblyInfoInputs.cache
+D:\RepositorioGit\TesteVillela\obj\Debug\netcoreapp3.1\TesteVillela.AssemblyInfo.cs
+D:\RepositorioGit\TesteVillela\obj\Debug\netcoreapp3.1\TesteVillela.dll
+D:\RepositorioGit\TesteVillela\obj\Debug\netcoreapp3.1\TesteVillela.pdb
+D:\RepositorioGit\TesteVillela\obj\Debug\netcoreapp3.1\TesteVillela.genruntimeconfig.cache
