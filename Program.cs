@@ -11,7 +11,7 @@ namespace TesteVillela
             int[] differentBillsUsed = new int[] { 100, 50, 20, 10, 5, 2, 1 };
 
             //getting the value to change for the bills
-            Console.WriteLine("Digite um numero inteiro");
+            Console.WriteLine("Digite um numero inteiro positivo");
             int value = ReadValue(Console.ReadLine());
 
 
@@ -31,15 +31,19 @@ namespace TesteVillela
         {
             int value;
             Console.Clear();
-            if (int.TryParse(valueStr, out value))
-            {
-                return value;
-            }
-            else
+            if (int.TryParse(valueStr, out value)==false)
             {
                 Console.WriteLine("Digita um valor correto");
                 return ReadValue(Console.ReadLine());
             }
+
+            if(value>0)
+            {
+                return value;
+            }
+
+            Console.WriteLine("Digita um valor positivo");
+            return ReadValue(Console.ReadLine());
         }
 
         static void payMoney(ref int remainingValue, ref int numberOfBills, int billAmount)
