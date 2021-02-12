@@ -15,26 +15,28 @@ namespace TesteVillela
             int value = ReadValue(Console.ReadLine());
 
 
+            Console.WriteLine("Para completar o valor de R$"+ value);
+
             for (int i = 0; i < differentBillsUsed.Length; i++)
             {
                 //paying with each bill, from biggest to smallest value
                 payMoney(ref value, ref numberOfBills, differentBillsUsed[i]);
             }
 
-            Console.WriteLine("Quantidade de cédulas a retornar:" + numberOfBills);
+            Console.WriteLine("É preciso de " + numberOfBills+ " cédulas ");
             Console.ReadLine();
         }
 
         static int ReadValue(string valueStr)
         {
             int value;
+            Console.Clear();
             if (int.TryParse(valueStr, out value))
             {
                 return value;
             }
             else
             {
-                Console.Clear();
                 Console.WriteLine("Digita um valor correto");
                 return ReadValue(Console.ReadLine());
             }
